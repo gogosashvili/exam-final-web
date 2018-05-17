@@ -188,16 +188,22 @@ header label:hover{
 	transition: .5s ease;
 }
 .hover {
+	display: block;
 	width: 44px;
 	height: 44px;
-	transform: translate(360%,160%);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
 }
 .hoverimg p{
+	display: block;
 	font-size: 14pt;
 	font-family: "BPG Glaho WEB Caps", sans-serif;
 	color: #FFFFFF;
-	margin-left: 22%; 
-	margin-top: 23%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center; 
+	margin-top: 5%;
 	opacity: 1;
 }
 .picture1:hover .hoverimg{
@@ -447,5 +453,11 @@ footer img {
 	}
 	.about-me-pic img, .about-me-pic .transform{
 		height: 400px;
+	}
+	footer img {
+		width: 25%;
+	}
+	footer p{
+		font-size: 9px;
 	}
 }
